@@ -1,0 +1,13 @@
+<?xml version= "1.0" encoding ="UTF-8"?>
+
+
+<Suite name="Basic_Selenium_Practice">
+    <test name = "TestNG_Test">
+        <Classes>
+
+            <Class name ="basic_java.TestNGTestCon">
+
+            </Class>
+        </Classes>
+    </test>
+</Suite>

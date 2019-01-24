@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="11083" started-at="2018-11-19T19:34:57Z" finished-at="2018-11-19T19:35:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11083" started-at="2018-11-19T19:34:57Z" finished-at="2018-11-19T19:35:08Z">
+      <class name="basic_java.TestNGTestCon">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:basic_java.TestNGTestCon@13c78c0b]" name="setUP" is-config="true" duration-ms="11025" started-at="2018-11-19T14:34:57Z" finished-at="2018-11-19T14:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test01()[pri:0, instance:basic_java.TestNGTestCon@13c78c0b]" name="test01" duration-ms="23" started-at="2018-11-19T14:35:08Z" finished-at="2018-11-19T14:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:basic_java.TestNGTestCon@13c78c0b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T14:35:08Z" finished-at="2018-11-19T14:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basic_java.TestNGTestCon -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
