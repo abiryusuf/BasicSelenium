@@ -39,15 +39,20 @@ public class DynamicTableHandle {
      /*   Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_PAGE_DOWN);
         robot.keyRelease(KeyEvent.VK_PAGE_DOWN);*/
-
+  //Grab the table
        WebElement mainTable = driver.findElement(By.xpath("//div[@class='w3-responsive']"));
+       //To locate rows of table
        List<WebElement> table_row = mainTable.findElements(By.tagName("tr"));
+       //print total number of row in the table
        int totalRow = table_row.size();
         System.out.println("Toatal number of row is "+table_row);
+        //execute each row of the table by using for loop
        for(int row=0;row<totalRow;row++){
+           //TO locate columns of that spacific row
          List<WebElement> table_column = table_row.get(row).findElements(By.tagName("td"));
         int totalColumn = table_column.size();
         for(int column=0;column<totalColumn;column++){
+            //To retrieve text from that specific cell
             String cellText = table_column.get(column).getText();
             System.out.println("Cell text for test three is "+ cellText);
         }
