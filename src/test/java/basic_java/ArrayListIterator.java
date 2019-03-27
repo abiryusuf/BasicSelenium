@@ -1,4 +1,6 @@
 package basic_java;
+import org.testng.annotations.Test;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -41,7 +43,7 @@ public class ArrayListIterator {
         ArrayList<String> copy = (ArrayList<String>)arrl.clone();
         System.out.println("Cloned arrayList is -->"+copy);
     }
-
+   @Test
     //How to reverse ArrayList
     public static void reverseArrayList(){
             ArrayList <String> list = new ArrayList<String>();
