@@ -22,22 +22,25 @@ public class ArrayDemo {
         }
         public static void FindNumber(){
 
-                int intArray[]=new int[]{30,20,10,50,60};
+                int intArray[]={8,5,6,12,14,60,79};
+
                 int largest=Integer.MIN_VALUE;
                 int smallest=Integer.MAX_VALUE;
-                for (int number : intArray){
-                    if (number>largest){
-                        largest=number;
-                    }
-                   // System.out.println(largest);
-                }  System.out.println(largest);
-
-                for (int number : intArray){
-                    if (number<smallest){
-                        smallest=number;
+                for (int abir :intArray){
+                   if (largest<abir){//abir>largest
+                       largest=abir;
+                   }
+                }
+            System.out.println("Largest number is "+largest);
+                for (int abir:intArray){
+                    if (smallest>abir){
+                        smallest=abir;
                     }
                 }
-            System.out.println(smallest);
+            System.out.println("Smallest number is "+smallest);
             }
+
+
+
     }
 
