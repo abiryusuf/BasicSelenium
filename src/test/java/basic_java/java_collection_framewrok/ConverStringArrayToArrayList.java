@@ -1,4 +1,4 @@
-package basic_java;
+package basic_java.java_collection_framewrok;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -9,7 +9,7 @@ public class ThisKewWordDemo {
     int roll;
     String name;
     float fee;
-//If loacl variable (formal argument) and instant variable are different, there no need to use this keyword.
+//If local variable (formal argument) and instant variable are different, there no need to use this keyword.
     ThisKewWordDemo(int roll, String name, float fee) {
         this.roll = roll;
         this.name = name;

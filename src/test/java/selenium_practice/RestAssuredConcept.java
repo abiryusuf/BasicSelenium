@@ -34,7 +34,7 @@ public class RestAssuredConcept {
        requestSpecification.header("Content-Type","application/json");
 
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("name","Kartick");
+        jsonObject.put("name","Abir");
         jsonObject.put("job","leader");
 
         requestSpecification.body(jsonObject.toJSONString());
