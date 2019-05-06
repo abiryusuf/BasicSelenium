@@ -8,9 +8,13 @@ public class OverloadDemo {
         OverloadDemo obj = new OverloadDemo();
         demo(0, "Abir");
         obj.demo(1, "Yusuf", "NY");
-        System.out.println(obj.add(10, 20));
+        System.out.println(obj.add(30, 20));
         System.out.println(obj.add(40, 30, 20));
+
     }
+
+
+
     public static void demo(int i, String name ){
         System.out.println("Id and name: " + i + ", " +  name);
     }
