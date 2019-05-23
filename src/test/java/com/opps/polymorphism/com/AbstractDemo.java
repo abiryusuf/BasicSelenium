@@ -15,7 +15,7 @@ abstract class ParentClass{
     abstract public void method2();
 }
 
-class child extends ParentClass{
+  class child extends ParentClass{
     //override the abstract method
     //child class override the method to give its own implementation details
     public void method2(){
